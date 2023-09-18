@@ -1,5 +1,5 @@
-const baseUrl = process.env.TMDB_BASE_URL;
-const key = process.env.TMDB_KEY;
+const baseUrl = "https://api.themoviedb.org/3/";
+const key = "a7286d592a026a75e47beca432e3552e";
 
 const getUrl = (endpoint, params) => {
   const qs = new URLSearchParams(params);
