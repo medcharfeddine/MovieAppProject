@@ -51,5 +51,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8000/api/v1"
+  "proxy": "https://movie-app-api-theta.vercel.app/api/v1"
 }
