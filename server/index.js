@@ -11,7 +11,7 @@ const app = express();
 
 app.use(cors(
      {
-         origin: ["https://movie-app-project-nu.vercel.app"],
+         origin: ["https://forja.vercel.app"],
          methods: ["POST", "GET"],
          credentials: true
      }
